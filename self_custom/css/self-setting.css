@@ -1,0 +1,68 @@
+#nav-right {
+	flex: 1 1 auto;
+	justify-content: flex-end;
+	margin: auto;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#nav *::after {
+	background-color: transparent !important;
+}
+
+.menus_item_child li:not(#sidebar-menus li) {
+	float: left;
+	border-radius: 6px !important;
+	-webkit-border-radius: 6px !important;
+	-moz-border-radius: 6px !important;
+	-ms-border-radius: 6px !important;
+	-o-border-radius: 6px !important;
+}
+
+.menus_item_child:not(#sidebar-menus ul) {
+	left: 50%;
+	translate: -50%;
+}
+
+.nav-fixed #nav {
+	transform: translateY(58px) !important;
+	-webkit-transform: translateY(58px) !important;
+	-moz-transform: translateY(58px) !important;
+	-ms-transform: translateY(58px) !important;
+	-o-transform: translateY(58px) !important;
+}
+
+#nav {
+	transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+}
+
+#he-plugin-standard {
+	width: 100% !important;
+	margin-bottom: 20px !important;
+}
+
+.wv-lt-location>a[data-v-4b9dcab4],
+.wv-lt-location>span[data-v-4b9dcab4],
+.wv-n-h-now-tmp>span[data-v-5f4c0628],
+.wv-n-h-now-txt>span[data-v-5f4c0628],
+.wv-n-h-now-rain>a[data-v-5f4c0628],
+.wv-n-h-now-rain>span[data-v-5f4c0628],
+.wv-f-forecast-date>a[data-v-66693262],
+.wv-f-a {
+	color: var(--font-color) !important;
+	font-family: 'HYTMR', 'Microsoft Yahei', 'PingFang SC', 'SimSun' !important;
+	font-size: 14px
+}
+
+.wv-n-h-now-aqi-item {
+	display: none;
+}
+
+h1.page-title, 
+h2 {
+	text-align: center;
+}
